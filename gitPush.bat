@@ -1,6 +1,10 @@
-dir 
-git config --global user.name "gaurav9969351313"
-git config --global user.email "gaurav.cdac16@gmail.com"
+:: This is Git Pusher Utility
+:: also to work it with add it in .netrc file
+
+::machine github.com
+::  login gaurav9969351313
+::  password gauravtalele*123
+
 
 git add .
 git commit -m "message"
