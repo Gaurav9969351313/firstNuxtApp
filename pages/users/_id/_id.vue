@@ -8,7 +8,8 @@ export default {
         console.log(data);
         //return true;
         return /^\d+$/.test(data.params.id); //dynamic segment validation of url parameters
-    }
+    },
+    layout:'users'
 }
 </script>
 
