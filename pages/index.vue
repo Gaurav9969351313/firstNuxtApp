@@ -6,29 +6,13 @@
       </h1>
       <h4> <a href="/users">users</a> </h4>
       <h4><nuxt-link to="/users"> users with nuxt link </nuxt-link></h4>
-
-      <div>
-        <input type="text" v-model="userId">
-        <button @click="onLoadUser">Load Users</button>
-      </div>
+        
+    
     </div>
   </section>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      'userId':"Gaurav Talele"
-    }
-  },
-  methods:{
-      onLoadUser(){
-        this.$router.push("/users/"+this.userId);
-      }
-  }
-}
-</script>
+
 
 
 <style>
